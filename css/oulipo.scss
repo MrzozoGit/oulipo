@@ -1,0 +1,65 @@
+// AJOUTER UN RESET CSS !
+
+body, h1, ul, p, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+//////////
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+
+    &__nav {
+        padding: .5em 0;
+
+        &__title {
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+.view {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__haiku {
+        margin-bottom: 3em;
+    }
+
+    &__title {
+
+    }
+
+    &__button {
+        padding: .5em;
+        border: 1px black solid;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        user-select: none;
+    }
+}
