@@ -7,6 +7,10 @@ li {
   list-style: none;
 }
 
+button {
+  cursor: none;
+}
+
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -18,20 +22,24 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  cursor: none;
+  background-color: white;
 }
 
 .header {
   width: 100%;
   background-color: black;
-}
-.header__nav {
   padding: 0.5em 0;
 }
-.header__nav__title {
+.header__title {
   color: white;
   text-align: center;
 }
-
+.header__nav__ul {
+  display: flex;
+  justify-content: center;
+}
 .view {
   flex-grow: 1;
   display: flex;
@@ -40,17 +48,46 @@ body {
   align-items: center;
   text-align: center;
 }
-.view__haiku {
-  margin-bottom: 3em;
+.view__element {
+  display: none;
 }
 .view__button {
+  width: 200px;
   padding: 0.5em;
+  margin: 0.5em;
   border: 1px black solid;
   background-color: black;
   color: white;
-  cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  outline: 2px solid black;
+  border: 2px solid white;
+}
+
+.cursor {
+  pointer-events: none;
+  mix-blend-mode: difference;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #f7f8fa;
+  border-radius: 50px;
+  z-index: 1000;
+}
+.cursor__hovering {
+  transform: translateX(6.25px);
+  transform: translateY(6.25px);
+  width: 12.5px;
+  height: 12.5px;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }/*# sourceMappingURL=oulipo.css.map */

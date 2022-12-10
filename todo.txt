@@ -1,0 +1,5 @@
+- Option enregistrer le sonnet
+- Mise en page stylée
+- Changer le curseur
+- Menu avec les différentes combinatoires
+- Combinatoires rigolotes en +
