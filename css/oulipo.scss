@@ -1,26 +1,18 @@
-// AJOUTER UN RESET CSS !
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap');
 
-body, h1, ul, p, h2 {
-    margin: 0;
-    padding: 0;
-}
+////////////// VARIABLES //////////////
+$cursor-size: 17px;
+$background-color: #0b0b0d;
+$main-text-color: #FFFFFF;
 
-li {
-    list-style: none;
-}
-
-button {
-    cursor: none;
-}
-
-//////////
-$cursor-size: 25px;
-
+////////////// GENERAL //////////////
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    color: $main-text-color;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -28,18 +20,92 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    cursor: none;
-    background-color: white;
+    background-color: $background-color;
 }
 
+////////////// GLOBAL ELEMENTS //////////////
+.button {
+    position: relative;
+    width: 150px;
+    padding: .5em;
+    margin: .5em;
+    background-color: transparent;
+    border: 2px solid white;
+    isolation: isolate;
+    color: $main-text-color;
+    font-weight: 500;
+    font-size: .875rem;
+    cursor: pointer;
+    transition: color 300ms ease-in-out;
+    user-select: none;
+
+    &:before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+        background-color: white;
+        transition: 300ms ease-in-out;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: black;
+
+        &:before {
+            transform: scaleX(1);
+        }
+    }
+}
+
+////////////// CURSOR //////////////
+.cursor {
+    pointer-events: none;
+    mix-blend-mode: difference;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $cursor-size;
+    height: $cursor-size;
+    background-color: #f7f8fa;
+    border-radius: 50px;
+    z-index: 1000;
+    transition: width .5s ease-in-out, height .5s ease-in-out;
+
+    &--hovering {
+        width: $cursor-size*2;
+        height: $cursor-size*2;
+    }
+}
+
+////////////// HEADER //////////////
 .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    background-color: black;
-    padding: .5em 0;
+    padding: .5rem 0;
 
     &__title {
-        color: white;
+        color: black;
+        font-family: 'Syne', sans-serif;
+        font-size: 5rem;
+        font-weight: 600;
+        max-width: 50rem;
+        mix-blend-mode: difference;
+        pointer-events: none;
         text-align: center;
+        // translate: 0 6rem;
+        z-index: 1;
+        // color: white;
+        // text-align: center;
+        text-shadow: 1px 1px #fff, -1px 1px #fff, 1px -1px #fff, -1px -1px #fff;
+
+        &--white {
+            color: white;
+        }
     }
 
     &__nav {
@@ -50,14 +116,13 @@ body {
 
             &__li {
 
-                &__button {
-
-                }
+                &__button {}
             }
         }
     }
 }
 
+////////////// VIEW //////////////
 .view {
     flex-grow: 1;
     display: flex;
@@ -70,56 +135,13 @@ body {
         display: none;
     }
 
-    &__haiku {
+    &__haiku {}
 
-    }
+    &__sonnet {}
 
-    &__sonnet {
+    &__title {}
 
-    }
-
-    &__title {
-
-    }
-
-    &__button {
-        width: 200px;
-        padding: .5em;
-        margin: .5em;
-        border: 1px black solid;
-        background-color: black;
-        color: white;
-        user-select: none;
-        outline: 2px solid black;
-        border: 2px solid white;
-    }
-}
-
-// .view__button:hover + .cursor {
-//     width: 10px;
-//     height: 10px;
-// }
-
-.cursor {
-    pointer-events: none;
-    mix-blend-mode: difference;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 25px;
-    height: 25px;
-    background-color: #f7f8fa;
-    border-radius: 50px;
-    z-index: 1000;
-    // transition: width .25s ease-in-out, height .25s ease-in-out;
-    // transition: height 1s ease-in-out;
-    
-    &__hovering {
-        transform: translateX(6.25px);
-        transform: translateY(6.25px);
-        width: 12.5px;
-        height: 12.5px;
-    }      
+    &__button {}
 }
 
 .active {
@@ -128,3 +150,85 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+////////////// BACKGROUND //////////////
+.background {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+
+    &__noise {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        mix-blend-mode: overlay;
+        opacity: .8;
+        user-select: none;
+    }
+
+    &__gradient {
+        position: absolute;
+        z-index: -3;
+        top: 50vh;
+        width: 2400px;
+        height: 2600px;
+        // background: linear-gradient(90deg, #fca5ff, #a32cc7);
+        background: linear-gradient(90deg, #009dff, #009dff);
+        border-radius: 50%;
+        filter: blur(100px);
+        animation: rotate-background 10s linear infinite;
+    }
+}
+
+////////////// KEYFRAMES //////////////
+@keyframes rotate-background {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+
+
+
+
+////////////// SCANLINES //////////////
+
+// body:before{
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     background: linear-gradient(
+//         to bottom,
+//         rgba(18, 16, 16, 0) 50%,
+//         rgba(0, 0, 0, 0.25) 50%
+//     );
+//     background-size: 100% 8px;
+//     z-index: 20;
+//     pointer-events: none;
+//     animation: scanlines .5s steps(60) infinite;
+// }
+
+// @keyframes scanlines {
+//     0% {
+//         background-position: 0 40%;
+//         bottom: 0%;
+//     }
+// }

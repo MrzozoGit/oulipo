@@ -1,32 +1,3 @@
-// REPLACER DANS LE MVC //
-
-const cursor = document.querySelector('.cursor');
-let mouse = { x: -200, y: -200 };
-let pos = { x: 0, y: 0 };
-const speed = 1; // between 0 and 1
-
-const updatePosition = () => {
-  pos.x += (mouse.x - pos.x) * speed - 25/2;
-  pos.y += (mouse.y - pos.y) * speed - 25/2;
-  cursor.style.transform = 'translate3d(' + pos.x + 'px ,' + pos.y + 'px, 0)';
-};
-
-const updateCoordinates = e => {
-  mouse.x = e.clientX;
-  mouse.y = e.clientY;
-}
-
-window.addEventListener('mousemove', updateCoordinates);
-
-function loop() {
-  updatePosition();
-  requestAnimationFrame(loop);
-}
-
-requestAnimationFrame(loop);
-
-//////////////////////////////////
-
 class Poeme {
     constructor(lines) {
         this.lines = lines;
@@ -58,7 +29,7 @@ class Bank {
     }
 }
 
-var M = {
+let M = {
     datas: undefined,
 
     haikuBank: undefined,
@@ -74,7 +45,7 @@ var M = {
     },
 }
 
-var C = {
+let C = {
     init: async function() {
         M.datas = await C.loadJson();
         M.init();
@@ -98,7 +69,7 @@ var C = {
 
 }
 
-var V = {
+let V = {
     init: function() {
         V.cursor = document.querySelector('.cursor');
         V.hoverable = document.querySelectorAll('.hoverable')
@@ -161,11 +132,11 @@ var V = {
     },
 
     addHoverButton: function() {
-        V.cursor.classList.add("cursor__hovering");
+        V.cursor.classList.add("cursor--hovering");
     },
 
     removeHoverButton: function() {
-        V.cursor.classList.remove("cursor__hovering");
+        V.cursor.classList.remove("cursor--hovering");
     },
 
     resetHaiku: function() {

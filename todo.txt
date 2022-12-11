@@ -1,5 +1,13 @@
-- Option enregistrer le sonnet
-- Mise en page stylée
-- Changer le curseur
-- Menu avec les différentes combinatoires
+- Option enregistrer/partager le sonnet
+- Option enregistrerpartager le haiku
+- Affichage Bristols
+- Mélange Bristols
+- Affichage conte
+- Jeu conte
+- Personnalier pour chaque combinatoire
 - Combinatoires rigolotes en +
+
+CHECKED
+- Changer le curseur
+- Mise en page stylée
+- Menu avec les différentes combinatoires

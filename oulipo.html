@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/oulipo.css">
     <title>OULIPO</title>
 </head>
@@ -13,14 +14,20 @@
     <div class="cursor"></div>
 
     <header class="header">
-        <h1 class="header__title">Les OULIPO</h1>
+        <h1 class="header__title">Textes <span class="header__title--white">combinatoires</span></h1>
         <nav class="header__nav">
             <ul class="header__nav__ul">
                 <li class="header__nav__ul__li">
-                    <button class="header__nav__ul__li__button hoverable" id="showHaiku">Haiku</button>
+                    <button class="button header__nav__ul__li__button hoverable" id="showHaiku">Haiku</button>
                 </li>
                 <li class="header__nav__ul__li">
-                    <button class="header__nav__ul__li__button hoverable" id="showSonnet">Sonnet</button>
+                    <button class="button header__nav__ul__li__button hoverable" id="showSonnet">Sonnet</button>
+                </li>
+                <li class="header__nav__ul__li">
+                    <button class="button header__nav__ul__li__button hoverable" id="showBristol">Bristols</button>
+                </li>
+                <li class="header__nav__ul__li">
+                    <button class="button header__nav__ul__li__button hoverable" id="showConte">Conte</button>
                 </li>
             </ul>
         </nav>
@@ -29,17 +36,33 @@
     <main class="view">
         <div class="view__element view__haiku active">
             <h2 class="view__title">HAIKU</h2>
-            <p class="view__button hoverable" id="generateHaiku">Générer un haiku</p>
+            <p class="button view__button hoverable" id="generateHaiku">Générer un haiku</p>
             <ul class="view__list" id="haiku"></ul>
         </div>
         <div class="view__element view__sonnet">
             <h2 class="view__title">SONNET</h2>
-            <p class="view__button hoverable" id="generateSonnet">Générer un sonnet</p>
+            <p class="button view__button hoverable" id="generateSonnet">Générer un sonnet</p>
             <ul class="view__list" id="sonnet"></ul>
+        </div>
+        <div class="view__element view__bristols">
+            <h2 class="view__title">BRISTOLS</h2>
+            <p class="button view__button hoverable" id="generateBristols">Mélanger les Bristols</p>
+            <ul class="view__list" id="bristols"></ul>
+        </div>
+        <div class="view__element view__conte">
+            <h2 class="view__title">CONTE</h2>
+            <p class="button view__button hoverable" id="generateConte">Jouer au conte combinatoire</p>
+            <ul class="view__list" id="conte"></ul>
         </div>
     </main>
 
-    <script src="js/oulipo.js"></script>
+    <div class="background">
+        <img class="background__noise" src="/data/img/noise.png" draggable="false" alt="Grain">
+        <div class="background__gradient"></div>
+    </div>
+
+    <script src="js/customCursor.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
