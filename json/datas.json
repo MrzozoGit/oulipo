@@ -1,4 +1,8 @@
 {
+    "haikuDesc": "Générer un haikus combinatoire parmi $ combinaisons possibles.",
+    "sonnetDesc": "Générer un sonnet combinatoire parmi $ combinaisons possibles. Concept inspiré du livre \"Cent mille milliards de poèmes\" de Raymond Queneau.",
+    "bristolsDesc": "Mélanger les 33 Bristols. Concept inspiré par les 99 \"Bristols\" de Frédéric Forte.",
+    "conteDesc": "Jouer au conte à votre façon, une histoire à choix dont vous êtes le héros. Concept inspiré par le \"Conte à votre façon\" de Raymond Quenneau.",
     "haiku": [
         [
             "Les yeux rusés des satellites",
@@ -33,221 +37,384 @@
             "Malgré moi, je reste immobile...",
             "Capricieuse vague de mélancholie...",
             "Mon cœur, toujours côté coure...",
-            "Vous m’élevez plus haute...",
+            "Vous m’élevez plus haut...",
             "Instants présents, lointains de toute..."
         ]
     ],
     
     "sonnet": [
         [
-            "Le roi de la pampa retourne sa chemise",
-            "Le cheval Parthénon s'énerve sur sa frise",
-            "Le vieux marin breton de tabac prit sa prise",
-            "C'était à cinq o'clock que sortait la marquise",
-            "Du jeune avantageux la nymphe était éprise",
-            "Il se penche il voudrait attraper sa valise",
-            "Quand l'un avecque l'autre aussitôt sympathise",
-            "Lorsqu'un jour exalté l'aède prosaïse",
-            "Le marbre pour l'acide est une friandise",
-            "Lorsque tout est fini lorsque l'on agonise",
             "Un astrophysicien, confiant de sa maîtrise",
             "Le matin, un café, chasse la flemmardise",
             "Le novice ignorant en sortant de l'église"
         ],
         [
-            "pour la mettre à sécher aux cornes des taureaux",
-            "depuis que lord Elgin négligea ses naseaux",
-            "pour du fin fond du nez exciter les arceaux",
-            "pour consommer un thé puis des petits gâteaux",
-            "snob un peu sur les bords des bords fondamentaux",
-            "que convoitait c'est sûr une horde d'escrocs",
-            "se faire il pourrait bien que ce soit des jumeaux",
-            "pour déplaire au profane aussi bien qu'aux idiots",
-            "d'aucuns par-dessus tout prisent les escargots",
-            "lorsque le marbrier astique nos tombeaux",
             "son outil technique lui dépeint un tableau",
             "pour arriver à temps, éviter les ragots",
             "dès que le couturier racheta son manteau"
         ],
         [
-            "le cornédbif en boîte empeste la remise",
-            "le Turc de ce temps-là pataugeait dans sa crise",
-            "sur l'antique bahut il choisit sa cerise",
-            "le chauffeur indigène attendait dans la brise",
-            "une toge il portait qui n'était pas de mise",
-            "il se penche et alors à sa grande surprise",
-            "la découverte alors voilà qui traumatise",
-            "la critique lucide aperçoit ce qu'il vise",
-            "sur la place un forain de feu se gargarise",
-            "des êtres indécis vous parlent sans franchise",
             "de planètes et de lieux, de ciels et de feintises",
             "l’ascenseur presque plein, son temps, elle optimise ",
             "la pacifique odeur que sentait sa promise"
         ],
         [
-            "et fermentent de même et les cuirs et les peaux",
-            "il chantait tout de même oui mais il chantait faux",
-            "il n'avait droit qu'à une et le jour des Rameaux",
-            "elle soufflait bien fort par-dessus les coteaux",
-            "des narcisses on cueille ou bien on est des veaux",
-            "il ne trouve aussi sec qu'un sac de vieux fayots",
-            "on espère toujours être de vrais normaux",
-            "il donne à la tribu des cris aux sens nouveaux",
-            "qui sait si le requin boulotte les turbots?",
-            "et tout vient signifier la fin des haricots",
             "les trésors de l’espac(e) lui offrent leur chaos",
             "escaliers familiers, elle débarque trop tôt",
             "il cueillait du jasmin sous le nez des oiseaux"
         ],
         [
-            "Je me souviens encor de cette heure exeuquise",
-            "Le cheval Parthénon frissonnait sous la bise",
-            "Souvenez-vous amis de ces îles de Frise",
-            "On était bien surpris par cette plaine grise",
-            "Quand on prend des photos de cette tour de Pise",
-            "Il déplore il déplore une telle mainmise",
-            "Et pourtant c'était lui le frère de feintise",
-            "L'un et l'autre a raison non la foule insoumise",
-            "Du voisin le Papou suçote l'apophyse",
-            "On vous fait devenir une orde marchandise",
             "Quell(es) merveilles infinies, nébuleuses ionisent",
             "Son bureau dans le noir, qu’un geste électrise",
             "Dans ce joyeux décor, une affaire est omise"
         ],
         [
-            "les gauchos dans la plaine agitaient leurs drapeaux",
-            "du client londonien où s'ébattent les beaux",
-            "où venaient par milliers s'échouer les harenceaux",
-            "quand se carbonisait la fureur des châteaux",
-            "d'où Galilée jadis jeta ses petits pots",
-            "qui se plaît à flouer de pauvres provinciaux",
-            "qui clochard devenant jetait ses oripeaux",
-            "le vulgaire s'entête à vouloir des vers beaux",
-            "que n'a pas dévoré la horde des mulots?",
-            "on prépare la route aux pensers sépulcraux",
             "qu’il observe à tout va, savourant son sirop",
             "mais viens le temps affreux, de saluer les sots",
             "la belle attachée aux rêveries d'un duo"
         ],
         [
-            "nous avions aussi froid que nus sur la banquise",
-            "il grelottait le pauvre aux bords de la Tamise",
-            "nous regrettions un peu ce tas de marchandise",
-            "un audacieux baron empoche toute accise",
-            "d'une étrusque inscription la pierre était incise",
-            "aller à la grand ville est bien une entreprise",
-            "un frère même bas est la part indécise",
-            "l'un et l'autre ont raison non la foule imprécise",
-            "le gourmet en salade avale la cytise",
-            "de la mort on vous greffe une orde bâtardise",
             "quand d’un coup une envie appel(le la) mignardise",
             "sa patronne pressée, toujours, l’idéalise",
             "dans l'amour bienheureux un fléau se déguise"
         ],
         [
-            "lorsque pour nous distraire y plantions nos tréteaux",
-            "quand les grêlons fin mars mitraillent les bateaux",
-            "lorsqu'on voyait au loin flamber les arbrisseaux",
-            "lorsque vient le pompier avec ses grandes eaux",
-            "les Grecs et les Romains en vain cherchent leurs mots",
-            "elle effraie le Berry comme les Morvandiaux",
-            "que les parents féconds offrent aux purs berceaux",
-            "à tous n'est pas donné d'aimer les chocs verbaux",
-            "l'enfant pur aux yeux bleus aime les berlingots",
-            "la mite a grignoté tissus os et rideaux",
             "il s’aventure alors dans le froid du frigo",
             "un regard tellement fier affole son ego",
             "le futur épousé deviendrait son bourreau"
         ],
         [
-            "Du pôle à Rosario fait une belle trotte",
-            "La Grèce de Platon à coup sûr n'est point sotte",
-            "On sèche le poisson dorade ou molve lotte",
-            "Du Gange à Malabar le lord anglais zozotte",
-            "L'esprit souffle et resouffle au-dessus de la botte",
-            "Devant la boue urbaine on retrousse sa cotte",
-            "Le généalogiste observe leur bouillotte",
-            "Le poète inspiré n'est point un polyglotte",
-            "Le loup est amateur de coq et de cocotte",
-            "Le brave a beau crier ah cré nom saperlotte",
             "Tel le cœur d’Uranus, s’empar(e) de tout l’azote",
             "L’aiguille spécifie la fin de la parlotte",
             "Une famille ruinée ayant payé la dot"
         ],
         [
-            "aventures on eut qui s'y pique s'y frotte",
-            "on comptait les esprits acérés à la hotte",
-            "on sale le requin on fume à l'échalote",
-            "comme à Chandernagor le manant sent la crotte",
-            "le touriste à Florence ignoble charibotte",
-            "on gifle le marmot qui plonge sa menotte",
-            "gratter le parchemin deviendra sa marotte",
-            "une langue suffit pour remplir sa cagnotte",
-            "le chat fait un festin de têtes de linotte",
-            "le lâche peut arguer de sa mine pâlotte",
             "algidé en ressort une petit(e) popotte",
             "son boulot engrené, l’effarant antidote",
             "les gamins mal aimés à chaque instant sanglotent"
         ],
         [
-            "lorsqu'on boit du maté l’on devient argentin",
-            "lorsque Socrate mort passait pour un lutin",
-            "lorsqu'on revient au port en essuyant un grain",
-            "le colonel s'éponge un blason dans la main",
-            "l'autocar écrabouille un peu l'esprit latin",
-            "lorsqu'il voit la gadoue il cherche le purin",
-            "il voudra retrouver le germe adultérin",
-            "même s'il prend son sel au celte c'est son bien",
-            "le chemin vicinal se nourrit de crottin",
-            "les croque-morts sont là pour se mettre au turbin",
             "qu’il ouvre et puis déguste, galaxie du festin",
             "le calme des claviers apaise ses chagrins",
             "Quand embrasserons-nous les leçons de demain ?"
         ],
         [
-            "L'Amérique du Sud séduit les équivoques",
-            "Sa sculpture est illustre et dans le fond des coques",
-            "Enfin on vend le tout homards et salicoques",
-            "Ne fallait pas si loin agiter ses breloques",
-            "Les rapports transalpins sont-ils biunivoques ?",
-            "On regrette à la fin les agrestes bicoques",
-            "Frère je te comprends si parfois tu débloques",
-            "Barde que tu me plais toujours tu soliloques",
-            "On a bu du pinard à toutes les époques",
-            "Cela considérant ô lecteur tu suffoques",
             "Entropie illicite que l’appétit convoque",
             "Dix-huit heures passées, comme un électrochoc",
             "Vénus est déterrée quand on est réciproque"
         ],
         [
-            "exaltent l'espagnol les oreilles baroques",
-            "on transporte et le marbre et débris et défroques",
-            "on s'excuse il n'y a ni baleines ni phoques",
-            "les Indes ont assez sans ça de pendeloques",
-            "les banquiers d'Avignon changent-ils les baïoques ?",
-            "on mettait sans façon ses plus infectes loques",
-            "frère je t'absoudrais si tu m'emberlucocques",
-            "tu me stupéfies plus que tous les ventriloques",
-            "grignoter des bretzels distrait bien des colloques",
-            "comptant tes abattis lecteur tu te disloques",
             "astronaute indécis, la pensée plurivoque",
             "la nuit réveille l’effroi et la routine en toc",
             "L'intégralité des gens aime la provoc"
         ],
         [
-            "si la cloche se tait et fait terlintintin",
-            "si l'Europe le veut l'Europe ou son destin",
-            "le mammifère est roi nous sommes son cousin",
-            "l'écu de vair ou d'or ne dure qu'un matin",
-            "le Beaune et le Chianti sont-ils le même vin ?",
-            "mais on n'aurait pas vu le métropolitain",
-            "la gémellité vraie accuse son destin",
-            "le métromane à force incarne le devin",
-            "mais rien ne vaut grillé le morceau de boudin",
-            "toute chose pourtant doit avoir une fin",
             "qui reprend son travail et scrute le lointain",
             "un cycle continu, le voilà, le matin",
             "mais seuls certains serpents se voient les plus malins"
         ]
+    ],
+
+    "bristols": [
+        "Face à toi s'envoler",
+        "Auprès des plumes",
+        "Filer vers l'avenir",
+        "Écrire sur l'éther bleuté",
+        "Étranger",
+        "En direction de l'inconnu",
+        "En dépit de nos différences",
+        "Contre les lendemains",
+        "Seul auprès de ma maladresse",
+        "Malgré moi",
+        "Cueillir un sourire",
+        "Fuir",
+        "Hélas",
+        "Parmi les nuages",
+        "Te chapardant",
+        "Partir au loin",
+        "Dans cet espace infini",
+        "Tournoyant dans le vent",
+        "Pour s'accaparer",
+        "Traverser le ciel",
+        "Librement",
+        "Arrêter le temps",
+        "Si tu existes",
+        "Comme une brise",
+        "Malgré toi",
+        "Déployer ses ailes",
+        "Pour pouvoir s'en sortir",
+        "Me fauchant",
+        "Sous les cumulus",
+        "Observer attentivement",
+        "Prenant ton dû",
+        "Décrocher la lune",
+        "L'impénétrable façade"
+    ],
+
+    "conte": [
+        {
+            "id": 1,
+            "story": "Désirez vous vous réveiller dans une pièce vide mais familière, espace vain au plafond haut embué par l’obscurité ?",
+            "choices": [
+                {
+                    "text": "Oui.",
+                    "directionID": 4
+                },
+                {
+                    "text": "Non.",
+                    "directionID": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "story": "Désirez vous vous réveiller sous la brise, dans l’herbe nacrée d’une plaine étrange à l’aura mélancolique ?",
+            "choices": [
+                {
+                    "text": "Oui.",
+                    "directionID": 5
+                },
+                {
+                    "text": "Non.",
+                    "directionID": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "story": "Désirez vous vous réveiller au milieu d’une foule d’êtres innomés et innommables, dont vous ne pouvez apercevoir ni le visage, ni la forme ?",
+            "choices": [
+                {
+                    "text": "Oui.",
+                    "directionID": 6
+                },
+                {
+                    "text": "Toujours pas...",
+                    "directionID": 19
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "story": "Vous rampez quelques secondes, à tâtons dans la pénombre, lorsque votre paume heurte un morceau de métal glacé. Vous levez la tête et faites face à une créature humanoïde argentée. À la place de sa tête, une main, et de son visage, un œil.",
+            "choices": [
+                {
+                    "text": "Vous prenez peur.",
+                    "directionID": 7
+                },
+                {
+                    "text": "Vous ne prenez pas peur.",
+                    "directionID": 8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "story": "Des images de votre passé s’effacent dans la brume rose pâle. L’herbe mouillée chatouille vos orteils et vous entendez au loin des mélodies indistinctes.",
+            "choices": [
+                {
+                    "text": "Ces mélodies vous importent peu.",
+                    "directionID": 9
+                },
+                {
+                    "text": "Ces mélodies vous intriguent ! Malheureusement cela ne change rien : vous n'en entendrez pas plus.",
+                    "directionID": 9
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "story": "Malgré vos efforts, vous n’arrivez à distinguer personne dans cette foule. Les visages changeant des êtres qui vous bousculent font naître en vous un sentiment de panique. Vous voulez fuir mais vous êtes bloqué.",
+            "choices": [
+                {
+                    "text": "Vous désirez affronter la foule.",
+                    "directionID": 11
+                },
+                {
+                    "text": "Vous préférez vous envoler.",
+                    "directionID": 10
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "story": "Vous vous redressez rapidement et vous mettez à courir. Vous arrivez rapidement aux limites de la pièce, dont la taille semble décroitre de manière exponentielle. Le sol se dérobe alors sous vos pieds dans un fracas retentissant.",
+            "choices": [
+                {
+                    "text": "Passer à la suite.",
+                    "directionID": 20
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "story": "Vous contemplez calmement la créature. Tout en restant immobile, telle une figure dans son autel, elle vous fixe, à la fois littéralement et métaphoriquement. \"À l'aide...\", susurre alors une voix anonyme dans votre oreille. Bizarre bizarre...",
+            "choices": [
+                {
+                    "text": "Vous êtes plutôt surpris.",
+                    "directionID": 7
+                },
+                {
+                    "text": "Vous restez de marbre.",
+                    "directionID": 12
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "story": "Vous restez allongé, apaisé. Le doux zéphyr vous caresse les joues. Vous levez les yeux au ciel et apercevez le soleil. Il ne se montre pas souvent par ici. Vous profitez du bercement du vent et de la chaleur des halos projetés sur votre corps pour méditer. Vous tombez alors dans un profond sommeil.",
+            "choices": [
+                {
+                    "text": "Passer à la suite.",
+                    "directionID": 20
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "story": "Vous vous extirpez de la masse d'un bond sec. D'en haut, vous pouvez observer la myriade d'individus s'entremêler. Cela vous rappelle le mouvement des vagues. Cependant, votre lévitation prend fin et vous chutez à toute vitesse vers le grouillement. La descente vous semble éternelle. Lorsque vous touchez enfin le sol, la nuée s'est dissipée. Elle a laissé place à une plage au sable gris. Vous vous allongez.",
+            "choices": [
+                {
+                    "text": "Vous restez allongé.",
+                    "directionID": 9
+                },
+                {
+                    "text": "Vous vous relevez.",
+                    "directionID": 13
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "story": "En dépit de votre peur, vous décidez d'affronter la foule. Les sons, les odeurs et le contacte physique brouillent vos sens. Votre vue se trouble et vous n'entendez bientôt plus qu'un sifflement stridant. Vous trébuchez et tombez à terre. C'est ballot, vous venez de perdre vos lunettes.",
+            "choices": [
+                {
+                    "text": "Vous cherchez vos lunettes.",
+                    "directionID": 4
+                },
+                {
+                    "text": "Vous estimez ne pas être capable de les retrouver dans votre état.",
+                    "directionID": 14
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "story": "Intrigué et légèrement effrayé, vous décidez de vous rapprocher de la statue. Vous penchez votre tête et vous collez votre oreille sur son torse. Un vrombissement léger se fait alors entendre, comme émanant du noyau de l'idole impassible.",
+            "choices": [
+                {
+                    "text": "Vous écoutez attentivement.",
+                    "directionID": 15
+                },
+                {
+                    "text": "Vous préférez ignorer.",
+                    "directionID": 16
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "story": "Vous vous levez en vitesse et vous vous mettez à marcher. Le sable fin glisse entre vos orteils. Vous n'avez pas le temps de trouvez ça désagréable, car vous apercevez déjà au loin un visage familier : votre sœur, apparemment. Elle vous fait signe de vous rapprocher. Vous vous exécutez. Une fois arrivé, votre sœur n'est plus là. Il faut dire que vous avez pris votre temps. En balayant l'horizon, vous l'apercevez à la fenêtre d'une cabine en bois. Mais attention, un afflux de touriste débarque sans crier gare et vous bloque le passage...",
+            "choices": [
+                {
+                    "text": "Vous vous croyez malin et, malgré votre agoraphobie, vous pensez que le plus rapide est de foncer dans le tas.",
+                    "directionID": 11
+                },
+                {
+                    "text": "Vous êtes réellement malin et vous vous souvenez du raccourci vers la cabine.",
+                    "directionID": 18
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "story": "Vous appelez à l'aide. Un quelconque gentleman vous tend alors votre paire, que vous agrippez avant de la placer avec vergogne sur votre nez. Vous vous dites que c'est super de voir clair. Le bonhomme vous demande alors si vous pouvez l'aider à faire démarrer sa Renault Clio 2 non loin de là. Vous marchez jusqu'au dit véhicule.",
+            "choices": [
+                {
+                    "text": "Vous désirez l'aider car il a été très gentil avec vous.",
+                    "directionID": 17
+                },
+                {
+                    "text": "Vous désirez l'aider, mais de malencontreux choix de vie vous on amené à vous dirigez en école d'art plutôt qu'en BTS Automobile.",
+                    "directionID": 16
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "story": "Vous prêtez l'oreille minutieusement afin de déchiffrer l'origine de ce ronronnement étouffé. Du coin de l'œil, vous apercevez une commissure circulaire entourant le cou de l'effigie. Vous essayez d'y passer vos ongle, malheureusement rongés plus tôt dans la journée, afin d'extirpez de son buste la tête de la statue. Vous y arrivez finalement, non sans avoir sué un bon coup. Vous entendez alors une voix tonitruante : \"SORTEZ MOI DE LÀ !!!\". Ce n'est pas très aimable de parler de la sorte.",
+            "choices": [
+                {
+                    "text": "Vous désirez inspecter l'intérieur de la statue pour éventuellement apporter votre aide à son contenu.",
+                    "directionID": 17
+                },
+                {
+                    "text": "Vous trouvez que la voix n'a pas été très aimable car elle n'a, entre autres, pas dit \"s'il vous plait\"",
+                    "directionID": 16
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "story": "Vous vous dites que vous n'êtes pas très fort en mécanique, avant de donner un bon coup sur le capot métallisé. Vous recevez alors une notification d'un proche : impossible de dire si c'est votre frère ou votre oncle... Le fait est qu'il vous donne rendez-vous près de l'étang, et qu'il vous dit de vous presser. Agité, vous entamez votre périple, très vite écourté par une chrysoprase sur laquelle vous trébuchez avec fougue. Dans l'action, votre tête heurte une cornaline qui passait par là.",
+            "choices": [
+                {
+                    "text": "Vous êtes de petite nature et cette escarmouche rocheuse a eu raison de vous.",
+                    "directionID": 19
+                },
+                {
+                    "text": "Votre caboche est vigoureusement inexpugnable.",
+                    "directionID": 13
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "story": "Vous vous penchez sur le gabarit métallique et découvrez dans votre plus grande stupeur votre sœur coincée à l'intérieur !",
+            "choices": [
+                {
+                    "text": "Cette vision vous rend nostalgique.",
+                    "directionID": 5
+                },
+                {
+                    "text": "Le choc émotionnel a été si fort qu'il vous a envoyé tout droit à l'hôpital.",
+                    "directionID": 3
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "story": "Heureusement pour vous, le raccourci n'avait pas bougé depuis la dernière fois. Encore heureux, puisque c'est un raccourci... Vous arrivez donc en face de la cabine, dans laquelle vous entrez sans attendre car vous commencez sérieusement à en avoir ras la casquette. Devant vos yeux ébahis se dessine alors, non pas la silhouette de votre sœur, mais celle d'un fauteuil Louis XIV. Vous décidez d'en profiter pour vous assoir et vous reposer un peu, quand vous remarquez que les accoudoirs sont munis de singuliers boutons.",
+            "choices": [
+                {
+                    "text": "Vous appuyez sur le bouton de gauche.",
+                    "directionID": 7
+                },
+                {
+                    "text": "Vous tentez votre chance avec celui de droite.",
+                    "directionID": 19
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "story": "Des dizaines d’images et de formes elliptiques au sens douteux défilent devant vos yeux. Un déluge de couleurs s’abat alors sur vous, vous engloutissant dans un gouffre d'euphorie et de chagrin, d'aigreur et d'amour. Quelle épopée !",
+            "choices": [
+                {
+                    "text": "Passer à la suite.",
+                    "directionID": 20
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "story": "Dans un état hallucinatoire hypnopompique, toujours troublé par votre singulière aventure, vous ouvrez les yeux.",
+            "choices": [
+                {
+                    "text": "Si vous avez plein de choses à faire et que vous préférez vous lever, faites donc ! Mais si vous désirez vous rendormir et replonger dans les méandres de votre inconscient, cliquez sur ce bouton...",
+                    "directionID": 1
+                }
+            ]
+        }
     ]
 }

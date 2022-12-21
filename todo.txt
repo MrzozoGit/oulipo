@@ -1,13 +1,19 @@
+- Mieux mettre en forme le texte (Haiku et Sonnet)
 - Option enregistrer/partager le sonnet
-- Option enregistrerpartager le haiku
-- Affichage Bristols
-- Mélange Bristols
-- Affichage conte
-- Jeu conte
-- Personnalier pour chaque combinatoire
-- Combinatoires rigolotes en +
+- Option enregistrer/partager le haiku
 
 CHECKED
 - Changer le curseur
 - Mise en page stylée
 - Menu avec les différentes combinatoires
+- Affichage Bristols
+- Affichage conte
+- Changer la couleur pour chaque combinatoire
+- Mélange Bristols
+- Jeu conte
+- Textes descriptifs
+- Calculer le nb de combinatoire de manière automatique
+- Dans la version finale, retirer les sonnets de Quenneau
+- Ajouter des sonnets de la promo
+- Cacher partie conte quand on joue pas
+- Mieux mettre en forme le texte (Conte)

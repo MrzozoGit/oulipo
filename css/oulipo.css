@@ -35,6 +35,8 @@ body {
           user-select: none;
 }
 .button:before {
+  height: 101%;
+  width: 101%;
   content: "";
   position: absolute;
   inset: 0;
@@ -49,6 +51,10 @@ body {
 }
 .button:hover:before {
   transform: scaleX(1);
+}
+.button--active {
+  color: black;
+  background-color: white;
 }
 
 .cursor {
@@ -96,6 +102,12 @@ body {
   display: flex;
   justify-content: center;
 }
+.header__description {
+  font-family: "Syne", sans-serif;
+  max-width: 600px;
+  text-align: center;
+}
+
 .view {
   flex-grow: 1;
   display: flex;
@@ -106,6 +118,88 @@ body {
 }
 .view__element {
   display: none;
+}
+.view__haiku__list {
+  font-size: 1.2rem;
+  -webkit-animation: tilting 20s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+          animation: tilting 20s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+.view__haiku__list li {
+  margin-top: 0.5em;
+}
+.view__sonnet__list {
+  width: 500px;
+  font-size: 1.2rem;
+  -webkit-animation: tilting 30s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+          animation: tilting 30s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+.view__sonnet__list div {
+  margin-top: 0.5em;
+}
+.view__bristols__list {
+  width: 90vw;
+  max-height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.view__bristols__list__card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  margin: 25px;
+  padding: 25px;
+  background-color: rgb(0, 0, 0);
+  mix-blend-mode: lighten;
+  transition: 1s ease;
+  border: 2px white solid;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.view__bristols__list__card:hover {
+  transform: scale(110%);
+  background-color: rgba(245, 245, 245, 0.277);
+}
+.view__bristols__list__card__text {
+  color: white;
+  font-style: italic;
+}
+.view__bristols__list__card__num {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  color: white;
+}
+.view__conte__story {
+  max-width: 60vw;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  -webkit-animation: floating 20s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+          animation: floating 20s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+.view__conte__story--started {
+  margin: 5vh;
+}
+.view__conte__storyspin {
+  -webkit-animation: tilting 15s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+          animation: tilting 15s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+.view__conte__choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.view__conte__choices__li {
+  width: auto;
+  max-width: 300px;
 }
 .active {
   display: flex;
@@ -150,11 +244,36 @@ body {
   top: 50vh;
   width: 2400px;
   height: 2600px;
-  background: linear-gradient(90deg, #009dff, #009dff);
   border-radius: 50%;
   filter: blur(100px);
   -webkit-animation: rotate-background 10s linear infinite;
           animation: rotate-background 10s linear infinite;
+}
+.background__gradient--blue {
+  background-image: linear-gradient(90deg, #009dff, #009dff);
+}
+.background__gradient--green {
+  background-image: linear-gradient(90deg, #05b33c, #05b33c);
+}
+.background__gradient--red {
+  background-image: linear-gradient(90deg, #b9073a, #b9073a);
+}
+.background__gradient--grey {
+  background-image: linear-gradient(90deg, #575757, #575757);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
 }
 
 @-webkit-keyframes rotate-background {
@@ -172,5 +291,49 @@ body {
   }
   100% {
     transform: rotate(1turn);
+  }
+}
+@-webkit-keyframes tilting {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}
+@keyframes tilting {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}
+@-webkit-keyframes floating {
+  0% {
+    transform: translate(0, -1vh);
+  }
+  50% {
+    transform: translate(0, 1vh);
+  }
+  100% {
+    transform: translate(0, -1vh);
+  }
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, -1vh);
+  }
+  50% {
+    transform: translate(0, 1vh);
+  }
+  100% {
+    transform: translate(0, -1vh);
   }
 }/*# sourceMappingURL=oulipo.css.map */
